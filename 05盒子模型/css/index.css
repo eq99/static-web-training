@@ -1,0 +1,193 @@
+.container {
+  width: 1197px;
+  margin: auto;
+}
+
+.clear-both::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header {
+  height: 100px;
+  font-size: 18px;
+}
+
+header h1 {
+  margin-left: 28px;
+  margin-top: 14px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  margin-right: 42px;
+  line-height: 100px;
+}
+
+header nav a:last-child {
+  margin-right: 28px;
+}
+
+header nav a.active {
+  color: #59a295;
+  border-bottom: 3px solid #59a295;
+}
+
+.banner {
+  height: 300px;
+  text-align: center;
+}
+
+.cases .nav {
+  margin-top: 53px;
+  margin-bottom: 59px;
+}
+
+.cases .nav ul {
+  float: left;
+}
+
+.cases .nav .bread {
+  float: right;
+}
+
+.cases .nav ul li {
+  float: left;
+  margin-right: 11px;
+}
+
+.cases .nav ul li a {
+  padding: 6px 8px;
+  border: 1px solid #808080;
+}
+
+.cases .nav ul li a.active {
+  background-color: #59a295;
+  border-color: #59a295;
+  color: white;
+}
+
+.cases .nav ul li a:hover {
+  background-color: #59a295;
+  border-color: #59a295;
+  color: white;
+}
+
+.cases .nav .bread a.active {
+  color: #59a295;
+}
+
+.cases .case-item {
+  float: left;
+  width: 352px;
+  height: 450px;
+  margin-right: 69px;
+  margin-bottom: 74px;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+.cases .case-item h3 {
+  font-size: 22px;
+  color: #59a295;
+  line-height: 30px;
+  margin-top: 45px;
+}
+
+.cases .case-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cases .case-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cases .pagenate {
+  float: right;
+  margin-bottom: 82px;
+  font-size: 18px;
+}
+
+.cases .pagenate ul li {
+  float: left;
+}
+
+.cases .pagenate a {
+  box-sizing: border-box;
+  padding: 6px 11px;
+  height: 32px;
+}
+
+.cases .pagenate a.active {
+  background-color: #59a295;
+  columns: #fff;
+}
+
+footer {
+  height: 323px;
+  padding-top: 40px;
+  background-color: #414141;
+  color: #fff;
+}
+
+footer .links {
+  height: 209px;
+}
+
+footer dt {
+  font-size: 16px;
+  line-height: 76px;
+}
+
+footer dd {
+  font-size: 12px;
+  line-height: 2;
+  padding-right: 87px;
+}
+
+footer .leader {
+  float: left;
+  width: 276px;
+  margin-top: 29px;
+}
+
+footer .leader .logo img {
+  width: 160px;
+  height: 48px;
+  margin-left: 4px;
+}
+
+footer .leader .social {
+  margin-top: 38px;
+  margin-left: 2px;
+}
+
+footer .leader .social img {
+  margin-right: 10px;
+}
+
+footer .about {
+  float: left;
+  width: 386px;
+}
+footer .contact {
+  float: left;
+}
+
+footer .qrcode {
+  width: 100px;
+  float: right;
+  margin-top: 37px;
+}
+
+footer .copy {
+  text-align: center;
+  line-height: 114px;
+}

@@ -1,0 +1,114 @@
+
+.topbar {
+  display: flex;
+  padding: 0.12rem 0.18rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+  font-size: 0.26rem;
+  height: 0.58rem;
+  color: #b3b3b3;
+
+  border-radius: 0.16rem;
+}
+
+.top-search .iconfont {
+  font-size: 0.3rem;
+}
+
+.top-ask {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #0084ff;
+
+  margin-right: 0.15rem;
+  margin-left: 0.32rem;
+}
+
+.top-ask .iconfont {
+  margin-right: 0.12rem;
+}
+
+/* 头部导航 */
+.top-nav {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.top-nav .nav-item {
+  width: 25%;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #999;
+
+  padding-top: 0.2rem;
+  padding-bottom: 0.18rem;
+  border-bottom: 2px solid transparent;
+}
+
+.top-nav .nav-item.active {
+  color: #444;
+  border-color: #444;
+}
+
+/* 榜单 */
+.hot-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+
+  padding: 0.24rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.hot-item .hot-hd {
+  flex-shrink: 0;
+  width: 10.667%;
+  text-align: center;
+  font-size: 0.72rem;
+  align-self: flex-start;
+
+  color: #c2a469;
+}
+
+.hot-item:nth-child(-n + 3) .hot-hd {
+  color: #f1403c;
+}
+
+.hot-item .hot-bd {
+  width: 55%;
+  align-self: flex-start;
+}
+
+.hot-item .title {
+  font-size: 0.3rem;
+  line-height: 0.46rem;
+  font-weight: bold;
+
+  margin-bottom: 0.16rem;
+}
+
+.hot-item .desc {
+  color: #9a9a9a;
+}
+
+.hot-item .hot-cover {
+  margin-left: auto;
+  margin-right: 0.2rem;
+}
+
+.hot-item .hot-cover img {
+  width: 2.1rem;
+  height: 1.4rem;
+}

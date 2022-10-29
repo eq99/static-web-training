@@ -1,0 +1,221 @@
+body {
+  padding-bottom: 0.98rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.24rem 0.26rem;
+}
+
+header .logo {
+  font-size: 1.5em;
+  color: #31ccff;
+}
+
+header .search {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eee;
+  padding: 10px 0;
+  margin-left: 0.26rem;
+
+  border-radius: 0.12rem;
+}
+
+/* 轮播图 */
+.banner img {
+  width: 100%;
+}
+
+/* 秒杀 */
+.sk-hd {
+  padding: 0.32rem 0.4rem 0.2rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sk-hd .title {
+  font-size: 0.28rem;
+  background-image: -webkit-linear-gradient(#ff3632 0.1%, #ff3632 50%, gold 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.sk-list {
+  padding-left: 0.2rem;
+
+  display: flex;
+
+  overflow-x: scroll;
+}
+
+.sk-item {
+  flex-shrink: 0;
+  width: 3.3rem;
+  display: flex;
+
+  box-shadow: -0.04rem -0.04rem 0.08rem #ddd;
+}
+
+.sk-item:not(:first-child) {
+  margin-left: 0.1rem;
+}
+
+.sk-item .info {
+  flex: 1;
+  padding: 0.26rem 0.16rem;
+}
+
+.sk-item .info .title {
+  font-size: 0.22rem;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.24rem;
+}
+
+.sk-item.active .title {
+  color: #fc4a3e;
+}
+
+.sk-item .info .title .iconfont {
+  margin-right: 0.06rem;
+}
+
+.sk-item .info .sub {
+  font-size: 0.2rem;
+}
+
+.sk-item .action {
+  flex-basis: 0.8rem;
+  background-color: #fc4a3e;
+  color: #fff;
+  border-radius: 0 0.08rem 0.08rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-nav {
+  padding: 0.64rem 0.2rem;
+  font-size: 0.3rem;
+
+  display: flex;
+  align-items: center;
+  line-height: 0.8rem;
+}
+
+.c-nav .nav-list {
+  flex: 1;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.c-nav .nav-item {
+  flex-shrink: 0;
+  font-size: 0.28rem;
+}
+
+.c-nav .nav-item:not(:first-child) {
+  margin-left: 0.72rem;
+}
+
+.c-nav .nav-item.active span {
+  font-size: 0.36rem;
+  font-weight: bold;
+
+  position: relative;
+}
+
+.c-nav .nav-item.active span::after {
+  display: block;
+  position: absolute;
+  bottom: -0.1rem;
+  left: 50%;
+  content: "";
+  width: 0.08rem;
+  height: 0.08rem;
+  background-color: #31ccff;
+  border-radius: 50%;
+}
+
+.c-nav .nav-action {
+  padding: 0.08rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.1rem #fff;
+}
+
+.c-nav .nav-action .iconfont {
+  font-size: 0.3rem;
+}
+
+/* 课程列表 */
+.c-item {
+  display: flex;
+  padding-left: 0.2rem;
+  padding-right: 0.36rem;
+  margin-bottom: 0.1rem;
+}
+
+.c-item .cover img {
+  width: 3.5rem;
+  height: 1.9rem;
+  border-radius: 0.08rem;
+}
+.c-item .detail {
+  flex: 1;
+  margin-left: 0.2rem;
+  overflow: hidden;
+}
+
+.c-item .detail .title {
+  font-size: 0.32rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.c-item .detail .time {
+  margin-top: 0.26rem;
+  color: #999;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+
+  padding-top: 0.14rem;
+  padding-bottom: 0.1rem;
+  border-top: 1px solo #ddd;
+}
+
+footer .link {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999;
+}
+
+footer .link.active {
+  color: #24b8ff;
+}
+
+footer .link .iconfont {
+  font-size: 0.42rem;
+}
+
+footer .link .name {
+  font-size: 0.18rem;
+  margin-top: 0.06rem;
+}

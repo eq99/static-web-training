@@ -1,0 +1,152 @@
+.info {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0.3rem 0.24rem 0.3rem;
+}
+
+.info .avatar {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.info .avatar img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.info .name {
+  font-size: 0.34rem;
+  margin-left: 0.24rem;
+}
+
+.info .wechat {
+  margin-left: 0.12rem;
+  color: #21b100;
+}
+
+.info .money {
+  margin-left: auto;
+  padding: 0.1rem 0.26rem;
+  border: 1px solid #ddd;
+  border-radius: 99rem;
+}
+
+.info .money .iconfont {
+  color: red;
+}
+
+/* 拼单卡 */
+.card {
+  width: 91.33%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.card .title {
+  flex: 1;
+  height: 0.88rem;
+  padding-left: 0.24rem;
+  color: #ffe2c0;
+  font-size: 0.3rem;
+  background-color: #5d5a6b;
+  border-radius: 0.16rem 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.card .angle {
+  width: 0;
+  height: 0;
+  border: 0.44rem solid;
+  border-color: #5d5a6b #524e5e #524e5e #5d5a6b;
+}
+
+.card .action {
+  height: 0.88rem;
+  display: flex;
+  align-items: center;
+
+  background-color: #524e5e;
+  padding-right: 0.18rem;
+  border-radius: 0 0.16rem 0 0;
+}
+
+.card .btn {
+  padding: 0.14rem 0.2rem;
+  font-size: 0.24rem;
+  background-color: #ffe2c0;
+  color: #524e5e;
+  border-radius: 99rem;
+  border: none;
+}
+
+.card .action .iconfont {
+  color: #ffe2c0;
+  margin-left: 0.12rem;
+}
+
+/* 订单 */
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.3rem;
+  padding: 0.34rem 0.24rem 0.34rem 0.36rem;
+  color: #888;
+}
+
+.order .title {
+  color: #000;
+}
+
+/* 图标导航 */
+
+.inav-group {
+  background-color: #f4f4f4;
+  padding-top: 0.16rem;
+}
+
+.inav-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.44rem;
+  background-color: #fff;
+}
+
+.inav-item {
+  width: 20%;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.inav-item .iconfont {
+  font-size: 0.45rem;
+}
+
+.inav-item .name {
+  margin-top: 0.2rem;
+  font-size: 0.28rem;
+}
+
+.red {
+  color: red;
+}
+
+.grey {
+  color: #666;
+}
+
+.gold {
+  color: #fa6d10;
+}
+
+

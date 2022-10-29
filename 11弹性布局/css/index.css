@@ -1,0 +1,296 @@
+body {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.container {
+  width: 962px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #e50011;
+  color: #fff;
+}
+
+.header-top {
+  height: 94px;
+  display: flex;
+  align-items: center;
+}
+
+/* 搜索框 */
+.header-search {
+  margin-left: auto;
+  border: 1px solid #fff;
+  padding: 9px 6px 9px 10px;
+}
+
+.header-search input {
+  width: 185px;
+  background-color: transparent;
+  color: #a9a9a9;
+}
+.header-search select {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* 登录区 */
+.header-top .links {
+  display: flex;
+  margin-left: 14px;
+}
+.header-top .links li {
+  padding: 0 10px;
+}
+
+.header-top .links li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+/* 导航栏 */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-nav .links {
+  display: flex;
+}
+
+.header-nav .links a {
+  padding: 12px 10px;
+}
+
+.header-nav .links a.active {
+  background-color: #fff;
+  color: #e50011;
+}
+
+.header-nav .links a:hover {
+  background-color: #fff;
+  color: #e50011;
+}
+
+/* 合作伙伴logo */
+
+.header-nav .partners {
+  display: flex;
+  height: 36px;
+  align-items: center;
+}
+
+.header-nav .partners li {
+  position: relative;
+  padding: 8px;
+}
+
+.header-nav .partners li:not(:last-child)::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 12px;
+  width: 1px;
+  background-color: #fff;
+  content: "";
+}
+
+/* 中间大图 */
+.banner .img-wrapper img {
+  width: 100vw;
+}
+
+/* 活动图标 */
+.activity {
+  height: 170px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* 新闻动态 */
+.info-box {
+  background-color: #f5f5f5;
+  padding: 39px 0;
+}
+
+.info-box .info {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #fff;
+  padding: 15px 15px 15px 20px;
+}
+
+.info-box .info-hd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-box .news {
+  width: 648px;
+}
+
+.info-box .news-bd {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-box .news-item {
+  display: flex;
+  margin-top: 15px;
+  background-color: #f5f5f5;
+}
+
+.info-box .news-item img {
+  width: 140px;
+}
+
+.info-box .news-detail {
+  width: 173px;
+  box-sizing: border-box;
+  padding: 15px 10px 0;
+  line-height: 2;
+}
+
+.info-box .news-detail .time {
+  color: #8f8f8f;
+}
+
+.info-box .note-hd {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.info-box .note-hd a {
+  line-height: 20px;
+  border: 1px solid #a9a9a9;
+  padding: 4px 10px;
+}
+
+.info-box .note-hd a.left {
+  position: absolute;
+  right: 37px;
+}
+.info-box .note-hd a.right {
+  position: absolute;
+  right: 0px;
+}
+
+.info-box .notes {
+  width: 230px;
+  line-height: 2;
+}
+
+.info-box .note-img {
+  margin-top: 8px;
+  margin-bottom: 11px;
+}
+
+.info-box .note-bd .title {
+  font-weight: bold;
+}
+.info-box .note-bd .detail {
+  color: #8f8f8f;
+}
+
+.info-box .note-bd .more {
+  padding: 2px 0;
+  font-weight: bold;
+}
+
+.info-box .note-bd .more span {
+  color: #e50011;
+  margin-left: 10px;
+}
+
+/* 分享 */
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.share li a {
+  display: inline-block;
+  width: 263px;
+}
+
+.share li:first-child {
+  padding-right: 40px;
+}
+
+.share li:nth-child(2) {
+  padding: 0 40px;
+}
+
+.share li:last-child {
+  padding-left: 40px;
+}
+
+.share li:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.share .share-img {
+  margin-bottom: 14px;
+}
+
+.share .tag {
+  display: inline-block;
+  margin-top: 57px;
+  margin-bottom: 3px;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.share .tag-green {
+  background-color: #2ac180;
+}
+
+.share .tag-red {
+  background-color: #f44358;
+}
+
+.share .tag-blue {
+  background-color: #2ea2de;
+}
+
+/* 回到顶部 */
+.back-top {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+
+/* 页脚 */
+footer {
+  background-color: #e50011;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 42px;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+footer .contact li:not(:first-child) {
+  margin-left: 30px;
+}
+
+footer .divider {
+  margin: 0 12px;
+}
+
+footer p:not(:last-child) {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,62 @@
+body {
+  background-color: #f2f2f2;
+  padding-bottom: 1rem;
+}
+
+.fest {
+  background-color: #ba0f0d;
+  color: #fde7b1;
+  padding: 0.04rem 0.06rem;
+  border-radius: 0.04rem;
+  margin-right: 0.24rem;
+}
+
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.16rem 0 0.1rem;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+
+  display: flex;
+}
+
+.footer-nav .nav-item {
+  width: 20%;
+  text-align: center;
+  color: #666;
+
+  position: relative;
+}
+
+.footer-nav .nav-item.active {
+  color: #e02e24;
+}
+
+.footer-nav .nav-item .nav-icon {
+  font-size: 0.42rem;
+}
+
+.footer-nav .nav-item .nav-name {
+  font-size: 0.18rem;
+  margin-top: 0.12rem;
+}
+
+.footer-nav .pill {
+  width: 0.4rem;
+  height: 0.4rem;
+  padding: 0.1rem;
+  background-color: #e02e24;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 9rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: -0.1rem;
+  right: 0.3rem;
+}

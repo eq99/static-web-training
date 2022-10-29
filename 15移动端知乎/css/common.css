@@ -1,0 +1,42 @@
+.gapy {
+  padding-top: 0.2rem;
+}
+
+body {
+  background-color: #ebebeb;
+  padding-bottom: 0.96rem;
+}
+
+/* 底部导航 */
+.foot-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+
+  color: #999;
+
+  border-top: 1px solid #ddd;
+  padding-top: 0.18rem;
+  padding-bottom: 0.06rem;
+}
+
+.foot-nav .nav-item {
+  width: 20%;
+  text-align: center;
+}
+
+.foot-nav .nav-item.active {
+  color: #0084ff;
+}
+
+.foot-nav .nav-item .iconfont {
+  font-size: 0.44rem;
+}
+
+.foot-nav .nav-item .name {
+  margin-top: 0.14rem;
+  font-size: 0.18rem;
+}

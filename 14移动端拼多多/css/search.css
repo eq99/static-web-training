@@ -1,0 +1,125 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background-color: #fff;
+  padding: 0.24rem 0.24rem 0.16rem;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #ddd;
+}
+
+header .topbar {
+  flex: 1;
+
+  justify-content: space-between;
+  display: flex;
+
+  margin-bottom: 0.4rem;
+}
+
+header .search {
+  background-color: #ededed;
+  color: #999;
+
+  padding: 0.24rem 0;
+  text-align: center;
+  border-radius: 0.1rem;
+}
+
+main {
+  position: fixed;
+  top: 1.92rem;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+
+  display: flex;
+}
+
+/* 左侧导航 */
+.side {
+  width: 24%;
+  flex-shrink: 0;
+  background-color: #eee;
+
+  overflow-y: scroll;
+}
+
+.cate-item {
+  padding: 0.3rem 0;
+  text-align: center;
+  font-size: 0.26rem;
+  color: #666;
+}
+
+.cate-item .cate-title {
+  display: block;
+
+  padding: 0.14rem 0;
+}
+
+.cate-item.active {
+  background-color: #fff;
+  color: #e02e24;
+}
+.cate-item.active .cate-title {
+  border-left: 4px solid #e02e24;
+}
+
+/* 中间内容 */
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.content {
+  flex: 1;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.con-hd {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.24rem;
+  padding: 0.34rem 0.24rem 0.34rem 0.36rem;
+  color: #888;
+}
+
+.con-hd .title {
+  color: #333;
+  margin-right: 0.24rem;
+}
+
+/* 中间推广 */
+.banner {
+  width: 87.72%;
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* 子导航 */
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-left: 0.5rem;
+  padding-right: 0.46rem;
+}
+
+.sub-item {
+  width: 30%;
+  text-align: center;
+  margin-top: 0.42rem;
+}
+.sub-item .name {
+  margin-top: 0.2rem;
+}

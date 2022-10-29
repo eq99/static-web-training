@@ -1,0 +1,55 @@
+.map {
+  padding-top: 122px;
+  padding-bottom: 105px;
+}
+
+.divider .left {
+  float: left;
+  height: 4px;
+  width: 128px;
+  background-color: #e4e4e4;
+}
+
+.divider .right {
+  float: right;
+  height: 4px;
+  width: 128px;
+  background-color: #e4e4e4;
+}
+
+.info {
+  padding-bottom: 120px;
+}
+
+.info .contact {
+  float: left;
+}
+
+.info .contact h3 {
+  font-size: 16px;
+  line-height: 34px;
+
+  margin-top: 40px;
+}
+
+.info .contact ul {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 34px;
+}
+
+.info .qrcode {
+  float: right;
+}
+
+.info .qrcode h3 {
+  font-size: 16px;
+  line-height: 34px;
+  text-align: right;
+
+  margin-top: 40px;
+}
+
+.info .qrcode img {
+  margin-top: 40px;
+}

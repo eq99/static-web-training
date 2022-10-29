@@ -1,0 +1,76 @@
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.22rem 0.28rem;
+
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+header .iconfont {
+  font-size: 0.4rem;
+}
+
+header .title {
+  font-size: 0.32rem;
+}
+
+.infos {
+  padding-left: 0.2rem;
+  background-color: #fff;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.24rem 0.3rem 0;
+  font-size: 0.3rem;
+}
+
+.infos .info-item:not(:first-child) {
+  border-top: 1px solid #ddd;
+}
+
+.avatar {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  height: 1rem;
+  width: 1rem;
+}
+
+.info-item .iconfont {
+  color: #999;
+}
+
+/* 功能性组件 */
+.info-item.p-sm {
+  padding-top: 0.22rem;
+  padding-bottom: 0.22rem;
+}
+
+.secondary {
+  color: #999;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+/* 同步微信数据 */
+.wechat {
+  position: fixed;
+  bottom: 0.72rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.3rem;
+}

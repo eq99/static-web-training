@@ -1,0 +1,101 @@
+body,
+ul,
+ol,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif, "Microsoft YaHei";
+  background-color: #fff;
+  line-height: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  /* 去掉a标签的下划线 */
+  text-decoration: none;
+  /* inherit 继承 */
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+i {
+  /* 去掉倾斜  i = span */
+  font-style: normal;
+}
+
+b {
+  /* 去掉加粗  b = span */
+  font-weight: normal;
+}
+
+input,
+textarea {
+  border: none;
+  margin: 0;
+  padding: 0;
+
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+select {
+  border: none;
+}
+
+/*utils*/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hide-el {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hide-el2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hide-el3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

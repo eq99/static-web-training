@@ -1,0 +1,24 @@
+.banner {
+  height: 80vh;
+  background: url(../images/health_02.jpg) no-repeat center center;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 6px #aaa;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+  line-height: 12vh;
+}
+
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 8vh;
+}

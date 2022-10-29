@@ -1,0 +1,201 @@
+header {
+  height: 50px;
+  background-color: #438eb9;
+  color: #fff;
+}
+
+header .logo {
+  float: left;
+  margin-left: 22px;
+  margin-top: 11px;
+}
+
+header .logo .logo-img {
+  float: left;
+}
+
+header .logo h1 {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+header .user {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.2);
+  line-height: 40px;
+  padding: 0 8px;
+  margin-right: 18px;
+}
+
+aside {
+  width: 190px;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+
+aside .head {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #6fb3e0;
+  color: #fff;
+}
+
+aside .item {
+  line-height: 40px;
+  width: 166px;
+  display: inline-block;
+  color: #585858;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0 12px;
+
+  cursor: pointer;
+}
+
+aside .item span {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+aside .sub-nav {
+  display: none;
+}
+
+aside input[type="checkbox"]:checked ~ .sub-nav {
+  display: block;
+}
+
+aside .sub-item {
+  line-height: 40px;
+  color: #585858;
+  border-bottom: 1px solid #e9e9e9;
+  padding-right: 12px;
+  padding-left: 36px;
+}
+
+aside .sub-item a {
+  display: block;
+}
+
+aside .active {
+  color: #2b7dbc;
+}
+
+aside .sub-active {
+  background-color: #6fb3e0;
+  color: #fff;
+}
+
+aside .foot {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f3f3f3;
+  color: #ccc;
+  cursor: pointer;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* 头部 */
+.main-header {
+  background-color: #f5f5f5;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.main-bread li {
+  float: left;
+  margin-left: 18px;
+}
+.main-bread li:not(:last-child)::after {
+  content: ">";
+  margin-left: 8px;
+}
+
+.main-bread a.active {
+  color: #6fb3e0;
+}
+
+/* 搜索 */
+.main-search {
+  float: right;
+  margin-right: 22px;
+  position: relative;
+}
+
+.main-search input {
+  width: 160px;
+  padding: 6px 18px 6px 2px;
+  border: 1px solid #9ccbea;
+  border-radius: 4px;
+}
+
+.main-search i {
+  position: absolute;
+  color: #6fb3e0;
+  right: 3px;
+}
+
+/* 表格标题 */
+.main-caption {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 11px;
+}
+
+/* 表格 */
+.main-table {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #c5d0dc;
+  box-sizing: border-box;
+  padding: 16px 12px;
+
+  min-height: 450px;
+  /* height: 100vh; */
+}
+
+.main-table table {
+  width: 100%;
+  line-height: 35px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.main-table table th,
+.main-table table td {
+  height: 35px;
+  border: 1px solid #ddd;
+  padding-left: 8px;
+  text-align: left;
+}
+
+.main-table table th {
+  background-color: #f2f2f2;
+}
+
+.main-table table tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.main-media {
+  width: 90%;
+  margin: -1px auto 0;
+  border: 1px solid #c5d0dc;
+  box-sizing: border-box;
+  padding: 16px 12px;
+}
+
+/* 直播 */
+.main-media .brodcast {
+  text-align: center;
+  color: #fff;
+  background-color: #2b8ccc;
+  padding: 8px 3px 10px;
+}

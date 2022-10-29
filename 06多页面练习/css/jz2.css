@@ -1,0 +1,60 @@
+.services {
+  background-color: #eee;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.services .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services .title .line1 {
+  height: 1px;
+  width: 240px;
+  background-color: #a7a7a7;
+}
+
+.services .title .line2 {
+  height: 3px;
+  width: 65px;
+  background-color: #36736d;
+  position: relative;
+  bottom: 2px;
+}
+
+.services .title h3 {
+  font-size: 22px;
+  line-height: 70px;
+}
+
+.services .title p {
+  font-size: 12px;
+  line-height: 48px;
+}
+
+.services ul li {
+  width: 399px;
+  float: left;
+  margin-top: 48px;
+
+  text-align: center;
+}
+
+.services ul li h3 {
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.services ul li .line3 {
+  height: 3px;
+  width: 34px;
+  background-color: #36736d;
+  margin: 0 auto 5px;
+}
+
+.services ul li p {
+  font-size: 12px;
+  line-height: 24px;
+}

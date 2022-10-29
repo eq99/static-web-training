@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .tabs {
+        position: relative;
+      }
+
+      .tab-hd {
+        background-color: tan;
+        padding: 8px 12px;
+        float: left;
+        cursor: pointer;
+      }
+
+      .tab-bd {
+        width: 350px;
+        height: 200px;
+        background-color: wheat;
+        position: absolute;
+        top: 110%;
+        left: 0;
+        visibility: hidden;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      input[name="tabs"]:checked + .tab-hd {
+        background-color: orange;
+      }
+
+      input[name="tabs"]:checked ~ .tab-bd {
+        visibility: visible;
+      }
+    </style>
+
+    <div class="tabs clearfix">
+      <div class="tab">
+        <input type="radio" name="tabs" id="tab1" hidden checked />
+        <label for="tab1" class="tab-hd">选项卡1</label>
+        <div class="tab-bd">选项卡1的内容</div>
+      </div>
+      <div class="tab">
+        <input type="radio" name="tabs" id="tab2" hidden />
+        <label for="tab2" class="tab-hd">选项卡2</label>
+        <div class="tab-bd">选项卡2的内容</div>
+      </div>
+      <div class="tab">
+        <input type="radio" name="tabs" id="tab3" hidden />
+        <label for="tab3" class="tab-hd">选项卡3</label>
+        <div class="tab-bd">选项卡3的内容</div>
+      </div>
+      <div class="tab">
+        <input type="radio" name="tabs" id="tab4" hidden />
+        <label for="tab4" class="tab-hd">选项卡4</label>
+        <div class="tab-bd">选项卡4的内容</div>
+      </div>
+    </div>
+  </body>
+</html>

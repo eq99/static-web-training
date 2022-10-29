@@ -1,0 +1,26 @@
+/* reboot  */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+nav ol,
+nav ul {
+  list-style: none;
+}
+
+nav a,
+dl a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+}
+
+/* end reboot */

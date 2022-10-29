@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.22rem 0.28rem;
+
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+header .iconfont {
+  font-size: 0.4rem;
+}
+
+header .title {
+  font-size: 0.3rem;
+}
+
+/* 商品列表 */
+.products {
+  column-count: 2;
+  column-gap: 0.1rem;
+}
+
+.pro-item {
+  background-color: #fff;
+  margin-bottom: 0.06rem;
+
+  position: relative;
+  overflow: hidden;
+
+  break-inside: avoid; /*防止被打断*/
+}
+
+.pro-item img {
+  width: 100%;
+}
+
+.pro-item .detail {
+  padding: 0.14rem 0.2rem;
+}
+
+.pro-item .detail .title {
+  font-size: 0.24rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.pro-item .tags {
+  margin-top: 0.2rem;
+  margin-bottom: 0.22rem;
+}
+
+.pro-item .tag {
+  padding: 0.02rem 0.04rem;
+  background-color: #fff1eb;
+  color: #ff6e28;
+  border-radius: 0.06rem;
+}
+
+.pro-item .foot {
+  display: flex;
+  align-items: center;
+}
+
+.pro-item .price {
+  font-size: 0.36rem;
+  color: red;
+}
+
+.pro-item .price::before {
+  content: "￥";
+  font-size: 0.7em;
+}
+
+.pro-item .count {
+  color: #999;
+}
+
+.pro-item .foot .find {
+  padding: 0.16rem 0.24rem;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 99rem;
+
+  position: absolute;
+  right: -0.24rem;
+  bottom: 0.1rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.pro-item .foot .find .iconfont {
+  font-size: 0.8em;
+}

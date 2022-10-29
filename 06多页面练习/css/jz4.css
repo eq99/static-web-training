@@ -1,0 +1,65 @@
+.cases .nav {
+  margin-top: 53px;
+  margin-bottom: 59px;
+}
+
+.cases .nav ul {
+  float: left;
+}
+
+.cases .nav .bread {
+  float: right;
+}
+
+.cases .nav ul li {
+  float: left;
+  margin-right: 11px;
+}
+
+.cases .nav ul li a {
+  padding: 6px 8px;
+  border: 1px solid #808080;
+}
+
+.cases .nav ul li a.active {
+  background-color: #59a295;
+  border-color: #59a295;
+  color: white;
+}
+
+.cases .nav ul li a:hover {
+  background-color: #59a295;
+  border-color: #59a295;
+  color: white;
+}
+
+.cases .nav .bread a.active {
+  color: #59a295;
+}
+
+.cases .case-item {
+  float: left;
+  width: 352px;
+  height: 450px;
+  margin-right: 69px;
+  margin-bottom: 74px;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+.cases .case-item h3 {
+  font-size: 22px;
+  color: #59a295;
+  line-height: 30px;
+  margin-top: 45px;
+}
+
+.cases .case-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cases .case-item:nth-child(3n) {
+  margin-right: 0;
+}

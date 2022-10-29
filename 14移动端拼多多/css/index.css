@@ -1,0 +1,92 @@
+.home-nav {
+  display: flex;
+  padding: 0 0.1rem;
+  white-space: nowrap;
+  overflow-x: scroll;
+
+  font-size: 0.3rem;
+  background-color: #fff;
+}
+
+.home-nav .nav-item {
+  padding: 0.32rem 0 0.2rem;
+  margin: 0 0.21rem;
+  border-bottom: 2px solid transparent;
+}
+
+.home-nav .nav-item.active {
+  color: #e02e24;
+  border-color: #e02e24;
+}
+
+/* 小程序 */
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.22rem 0 0.02rem;
+  background-color: #fff;
+}
+
+.app-item {
+  width: 20%;
+  text-align: center;
+  margin-bottom: 0.32rem;
+
+  position: relative;
+}
+
+.app-icon {
+  width: 0.7rem;
+}
+
+.app-name {
+  margin-top: 0.2rem;
+  font-size: 0.2rem;
+  color: #666;
+}
+
+.app-item .badge {
+  position: absolute;
+  top: -0.12rem;
+  right: 0.15rem;
+
+  padding: 0.06rem 0.08rem;
+  background-color: #e02e24;
+  color: #fff;
+  border-radius: 9rem 9rem 9rem 0;
+  transform: rotateZ(-45deg) scale(0.6);
+}
+
+/* 推广 */
+.hot-box {
+  padding-top: 0.16rem;
+}
+
+/* 商品列表 */
+
+.product {
+  margin: 0.16rem 0.02rem 0;
+  padding: 0.12rem;
+  background-color: #fff;
+  border-radius: 6px;
+
+  line-height: 0.42rem;
+
+  display: flex;
+}
+
+.product .cover {
+  width: 3.12rem;
+  border-radius: 4px;
+  margin-right: 0.2rem;
+}
+
+.product .title {
+  font-size: 0.26rem;
+  margin-bottom: 0.04rem;
+}
+
+.product .shop {
+  font-size: 0.2rem;
+  color: #999;
+}

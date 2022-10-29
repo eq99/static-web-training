@@ -1,0 +1,235 @@
+body {
+  background-color: #fff;
+}
+
+.t-top {
+  display: flex;
+  align-items: center;
+
+  padding: 0.4rem 0;
+}
+
+.t-top .title {
+  font-size: 0.5rem;
+  margin-left: 0.2rem;
+}
+.t-top .msg {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-left: auto;
+  padding: 0.12rem;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-top .msg .iconfont {
+  font-size: 0.4rem;
+  color: #999;
+}
+
+.t-top .avatar {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.24rem;
+  margin-left: 0.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.t-top .avatar img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+/* 顶不讨论 */
+.t-discuss {
+  display: flex;
+  padding-left: 0.2rem;
+}
+
+.t-discuss .cover {
+  width: 1.28rem;
+  margin-right: 0.18rem;
+  border-radius: 0.1rem;
+}
+
+.t-discuss .tag {
+  font-size: 0.2rem;
+  color: #0085fe;
+}
+
+.t-discuss .title {
+  font-size: 0.26rem;
+  margin-top: 0.12rem;
+}
+
+.t-discuss .subtitle {
+  font-size: 0.22rem;
+  color: #999;
+  margin-top: 0.08rem;
+}
+
+/* 中间导航 */
+.t-btns {
+  margin: 0.4rem 0.2rem;
+  padding: 0.18rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.12rem;
+  box-shadow: 0 0 0.1rem #ccc;
+}
+
+.t-btns .btn {
+  display: flex;
+  align-items: center;
+}
+.t-btns .btn:first-child {
+  justify-content: end;
+}
+
+.t-btns .icon {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+
+.t-btns .btn .title {
+  font-size: 0.26rem;
+  margin-left: 0.12rem;
+}
+
+.t-btns .divider {
+  width: 1px;
+  height: 0.48rem;
+  margin: 0 0.64rem;
+  background-color: #ddd;
+}
+
+/* 关注推荐 */
+/* 头像 */
+.avatar {
+  flex-shrink: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.t-follow {
+  padding: 0.2rem;
+
+  font-size: 0.28rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.t-follow .hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.3rem;
+}
+
+.t-follow .hd .iconfont {
+  color: #999;
+  margin-right: 0.12rem;
+  font-size: 0.32rem;
+}
+
+/* 用户信息 */
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user .info-wrapper {
+  flex: 1;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0.24rem 0;
+  margin-left: 0.2rem;
+}
+
+.user:not(:first-child) .info-wrapper {
+  border-top: 1px solid #ddd;
+}
+
+.user .info {
+  width: 4.7rem;
+}
+
+.user .info .subject {
+  margin-top: 0.12rem;
+  color: #999;
+  font-size: 0.24rem;
+}
+
+.user .action {
+  color: #0085fe;
+  background-color: #f6f6f6;
+  padding: 0.18rem 0.22rem;
+  border-radius: 99rem;
+}
+
+/* 底部按钮 */
+.t-follow .foot {
+  padding: 0.24rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ms-1 {
+  margin-left: 0.18rem;
+}
+
+.t-follow .btn {
+  width: 2.78rem;
+  padding: 0.14rem 0;
+  border-radius: 0.06rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #0085fe;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  color: #0085fe;
+  border: 1px solid #0085fe;
+}
+
+/* 想法列表 */
+.t-item {
+  padding: 0 0.2rem;
+}
+
+.t-item .t-bd {
+  margin-left: 0.9rem;
+  font-size: 0.28rem;
+  line-height: 0.4rem;
+}
+
+.t-item .topic {
+  color: #0085fe;
+}
+
+.t-item .more {
+  color: #0085fe;
+}
+
+.t-item .t-bd img {
+  width: 2.64rem;
+}

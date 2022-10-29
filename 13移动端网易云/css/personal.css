@@ -1,0 +1,255 @@
+/* 头部 */
+header {
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #d43c33;
+  color: #fff;
+
+  padding: 0 0.28rem;
+}
+
+header .ilink i {
+  font-size: 0.5rem;
+}
+
+header .title {
+  font-size: 0.34rem;
+}
+
+/* 导航列表 */
+/* 功能组件 */
+.primary {
+  color: #d43c33;
+}
+
+.secondary {
+  color: #999;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.light {
+  color: #ddd;
+}
+
+.icon-lg {
+  font-size: 0.5rem;
+}
+
+.icon-normal {
+  font-size: 0.32rem;
+}
+
+/* 小组件 */
+.dot {
+  width: 0.2rem;
+  height: 0.2rem;
+  background-color: #d33a31;
+  margin: 0 0.2rem;
+  border-radius: 9rem;
+}
+
+.pill {
+  padding: 0.08rem 0.12rem;
+  background-color: #d33a31;
+  color: #fff;
+  border-radius: 99rem;
+  text-align: center;
+  font-size: 0.2rem;
+  margin-right: 0.15rem;
+}
+
+.switch {
+  width: 1rem;
+  height: 0.6rem;
+  border: 0.02rem solid #ddd;
+  border-radius: 99rem;
+  position: relative;
+  margin-right: 0.12rem;
+}
+
+.switch label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+
+  box-shadow: 0.04rem 0.08rem 0.1rem #999;
+  border-radius: 50%;
+
+  transition: 0.5s;
+}
+
+.switch input:checked ~ label {
+  left: 0.4rem;
+  box-shadow: -0.02rem 0.08rem 0.1rem #999;
+}
+
+/* 用户信息区 */
+.user {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.2rem 0.35rem 0.3rem;
+}
+
+.user .avatar {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.2rem;
+}
+
+.user .avatar img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.user .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user .name {
+  font-size: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.user .level {
+  color: #999;
+  font-size: 0.28rem;
+  padding: 0.08rem 0.12rem;
+  border: 0.02rem solid #999;
+  border-radius: 99rem;
+}
+
+.user .sign {
+  margin-left: auto;
+  padding: 0.13rem 0.2rem;
+  color: #d43c33;
+  border: 0.02rem solid #d43c33;
+  border-radius: 99rem;
+}
+
+.user .sign .iconfont {
+  margin-right: 0.12rem;
+}
+
+/* 数据区 */
+.data {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.2rem 0;
+  border-top: 0.01rem solid #ddd;
+}
+
+.data .data-item {
+  width: 24.5%;
+  position: relative;
+}
+
+.data .data-item:not(:first-child) {
+  border-left: 0.01rem solid #ddd;
+}
+
+.data .title {
+  font-size: 0.2rem;
+  color: #999;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0.1rem;
+}
+
+.data .title .iconfont {
+  font-size: 0.2rem;
+}
+
+.data .dot {
+  position: absolute;
+  top: -0.1rem;
+  right: calc(50% - 0.55rem);
+}
+
+/* 导航列表 */
+.nav-sec {
+  background-color: #eee;
+  padding-top: 0.2rem;
+}
+
+.nav-list .nav-item:not(:first-child) .nav-desc {
+  border-top: 0.01rem solid #ddd;
+}
+
+.nav-icon {
+  padding: 0.3rem 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0 0.18rem 0 0.4rem;
+  background-color: #fff;
+}
+
+.nav-desc {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0;
+  margin-left: 0.45rem;
+
+  font-size: 0.32rem;
+}
+
+/* 底部导航 */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 0.13rem 0 0.07rem;
+
+  text-align: center;
+  color: #ccc;
+}
+
+footer a {
+  position: relative;
+}
+
+footer a .iconfont {
+  font-size: 0.45rem;
+}
+
+footer a.active {
+  color: #fff;
+}
+
+footer p {
+  margin-top: 0.12rem;
+}
+
+.badge {
+  position: absolute;
+  top: -0.12rem;
+  right: -0.3rem;
+
+  background-color: #d43c33;
+  padding: 0.08rem 0.12rem;
+  border: 0.04rem solid #444;
+  border-radius: 99rem;
+  color: #fff;
+}
